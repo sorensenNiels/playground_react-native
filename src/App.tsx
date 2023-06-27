@@ -1,13 +1,3 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * Generated with the Redux TypeScript template
- * https://github.com/rahsheen/react-native-template-redux-typescript
- *
- * @format
- */
-
 import React from 'react';
 import {
   SafeAreaView,
