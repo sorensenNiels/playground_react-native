@@ -14,9 +14,9 @@ import {
   DebugInstructions,
   ReloadInstructions
 } from 'react-native/Libraries/NewAppScreen';
-import LearnReduxLinks from './components/LearnReduxLinks';
-import Header from './components/Header';
-import {Counter} from './features/counter/Counter';
+import LearnReduxLinks from '@/components/LearnReduxLinks';
+import Header from '@/components/Header';
+import {Counter} from '@/features/counter/Counter';
 
 declare const global: {HermesInternal: null | {}};
 
