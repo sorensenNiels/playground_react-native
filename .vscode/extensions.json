@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "rne.snippets",
+    "msjsdiag.vscode-react-native",
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "aaron-bond.better-comments",
+    "dsznajder.es7-react-js-snippets"
+  ]
+}
