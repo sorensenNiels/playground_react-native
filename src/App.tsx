@@ -1,22 +1,22 @@
 import React from 'react';
 import {
   SafeAreaView,
-  StyleSheet,
   ScrollView,
-  View,
+  StatusBar,
+  StyleSheet,
   Text,
-  StatusBar
+  View
 } from 'react-native';
 
+import Header from '@/components/Header';
+import LearnReduxLinks from '@/components/LearnReduxLinks';
+import {Counter} from '@/features/counter/Counter';
 import {
-  LearnMoreLinks,
   Colors,
   DebugInstructions,
+  LearnMoreLinks,
   ReloadInstructions
 } from 'react-native/Libraries/NewAppScreen';
-import LearnReduxLinks from '@/components/LearnReduxLinks';
-import Header from '@/components/Header';
-import {Counter} from '@/features/counter/Counter';
 
 declare const global: {HermesInternal: null | {}};
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import {View, Text, StyleSheet, TouchableOpacity} from 'react-native';
+import {StyleSheet, Text, TouchableOpacity, View} from 'react-native';
 // @ts-ignore
 import openURLInBrowser from 'react-native/Libraries/Core/Devtools/openURLInBrowser';
 import {Colors} from 'react-native/Libraries/NewAppScreen';

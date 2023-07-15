@@ -1,16 +1,16 @@
+import {NavigationContainer} from '@react-navigation/native';
+import React from 'react';
+import {Provider} from 'react-redux';
 import App from './App';
 import {store} from './store';
-import {Provider} from 'react-redux';
-import React from 'react';
-import {SafeAreaProvider} from 'react-native-safe-area-context';
 
 const AppContainer = () => {
   return (
     <React.StrictMode>
       <Provider store={store}>
-        <SafeAreaProvider>
+        <NavigationContainer>
           <App />
-        </SafeAreaProvider>
+        </NavigationContainer>
       </Provider>
     </React.StrictMode>
   );

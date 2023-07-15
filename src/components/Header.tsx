@@ -1,6 +1,6 @@
 import React from 'react';
 import {Animated, StyleSheet, View} from 'react-native';
-import {useViewportUnits, useBounceAnimation} from '../hooks';
+import {useBounceAnimation, useViewportUnits} from '../hooks';
 
 const Header = () => {
   const {vh} = useViewportUnits();

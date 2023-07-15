@@ -6,8 +6,8 @@ import {
   TouchableOpacity,
   View
 } from 'react-native';
-import {useAppDispatch, useAppSelector} from '../../hooks';
 import {AsyncButton} from '../../components/AsyncButton';
+import {useAppDispatch, useAppSelector} from '../../hooks';
 import {
   decrement,
   increment,

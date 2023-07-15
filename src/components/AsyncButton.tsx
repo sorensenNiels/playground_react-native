@@ -2,12 +2,12 @@ import React, {useRef} from 'react';
 import {
   Animated,
   GestureResponderEvent,
+  LogBox,
   Pressable,
   PressableProps,
   StyleSheet,
   View,
-  ViewStyle,
-  LogBox
+  ViewStyle
 } from 'react-native';
 
 // Ignore warnings from built-in Animated components that hate StrictMode
