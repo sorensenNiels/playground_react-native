@@ -7,16 +7,9 @@ import {
   Text,
   View
 } from 'react-native';
-
 import Header from '@/components/Header';
-import LearnReduxLinks from '@/components/LearnReduxLinks';
 import {Counter} from '@/features/counter/Counter';
-import {
-  Colors,
-  DebugInstructions,
-  LearnMoreLinks,
-  ReloadInstructions
-} from 'react-native/Libraries/NewAppScreen';
+import {Colors} from 'react-native/Libraries/NewAppScreen';
 
 declare const global: {HermesInternal: null | {}};
 
@@ -36,39 +29,6 @@ const App = () => {
           )}
           <View style={styles.body}>
             <Counter />
-            <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>Step One</Text>
-              <Text style={styles.sectionDescription}>
-                Edit <Text style={styles.highlight}>App.tsx</Text> to change
-                this screen and then come back to see your edits.
-              </Text>
-            </View>
-            <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>See Your Changes</Text>
-              <Text style={styles.sectionDescription}>
-                <ReloadInstructions />
-              </Text>
-            </View>
-            <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>Debug</Text>
-              <Text style={styles.sectionDescription}>
-                <DebugInstructions />
-              </Text>
-            </View>
-            <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>Learn More Redux</Text>
-              <Text style={styles.sectionDescription}>
-                Discover what to do next with Redux:
-              </Text>
-            </View>
-            <LearnReduxLinks />
-            <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>Learn More React Native</Text>
-              <Text style={styles.sectionDescription}>
-                Read the docs to discover what to do next:
-              </Text>
-            </View>
-            <LearnMoreLinks />
           </View>
         </ScrollView>
       </SafeAreaView>
