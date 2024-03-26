@@ -1,3 +1,5 @@
+import Header from '@/components/Header';
+import {Counter} from '@/features/counter/Counter';
 import React from 'react';
 import {
   SafeAreaView,
@@ -7,8 +9,6 @@ import {
   Text,
   View
 } from 'react-native';
-import Header from '@/components/Header';
-import {Counter} from '@/features/counter/Counter';
 import {Colors} from 'react-native/Libraries/NewAppScreen';
 
 declare const global: {HermesInternal: null | {}};
