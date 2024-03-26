@@ -3,5 +3,6 @@ module.exports = {
   bracketSameLine: true,
   bracketSpacing: false,
   singleQuote: true,
-  trailingComma: 'none'
+  trailingComma: 'none',
+  plugins: ['prettier-plugin-organize-imports']
 };
