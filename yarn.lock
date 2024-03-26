@@ -2843,6 +2843,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@notifee/react-native@npm:^7.8.2":
+  version: 7.8.2
+  resolution: "@notifee/react-native@npm:7.8.2"
+  peerDependencies:
+    react-native: "*"
+  checksum: 10c0/1559caa74ccc057aa4a4a6fe15bcaf0fe0371ece045a0923c051fcef312e4c2b3e2f38e5032a15d2be327fd707492d014f2f074405123ed561ba368906413f29
+  languageName: node
+  linkType: hard
+
 "@npmcli/fs@npm:^3.1.0":
   version: 3.1.0
   resolution: "@npmcli/fs@npm:3.1.0"
@@ -3555,15 +3564,6 @@ __metadata:
   dependencies:
     "@sinonjs/commons": "npm:^3.0.0"
   checksum: 10c0/2e2fb6cc57f227912814085b7b01fede050cd4746ea8d49a1e44d5a0e56a804663b0340ae2f11af7559ea9bf4d087a11f2f646197a660ea3cb04e19efc04aa63
-  languageName: node
-  linkType: hard
-
-"@supersami/rn-foreground-service@npm:^2.1.0":
-  version: 2.1.0
-  resolution: "@supersami/rn-foreground-service@npm:2.1.0"
-  peerDependencies:
-    react-native: ">=0.59.0"
-  checksum: 10c0/43ff209c93e490d074199cb2f01b87756a2b2261acb994f3bd3aabd53c47084024a366df1a57708678e43ab2c22a01db1bf88624ab70698e6b493cee4b0f8579
   languageName: node
   linkType: hard
 
@@ -4319,6 +4319,7 @@ __metadata:
     "@babel/core": "npm:^7.24.3"
     "@babel/preset-env": "npm:^7.24.3"
     "@babel/runtime": "npm:^7.24.1"
+    "@notifee/react-native": "npm:^7.8.2"
     "@react-native/babel-preset": "npm:0.75.0-main"
     "@react-native/eslint-config": "npm:0.75.0-main"
     "@react-native/metro-config": "npm:0.75.0-main"
@@ -4329,7 +4330,6 @@ __metadata:
     "@react-navigation/native": "npm:^6.1.17"
     "@react-navigation/native-stack": "npm:^6.9.26"
     "@reduxjs/toolkit": "npm:^2.2.2"
-    "@supersami/rn-foreground-service": "npm:^2.1.0"
     "@types/jest": "npm:29.5.12"
     "@types/react": "npm:^18.2.71"
     "@types/react-test-renderer": "npm:^18.0.7"
